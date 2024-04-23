@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Clinic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Navbar Section Start -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="navbar-brand" href="#">
+            <i class="fa-solid fa-bars-staggered text-white fs-1 p-4 bg-warning bg-opacity-50 rounded-circle border-2 border-warning-subtle"></i>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown"> Location
+                <a class="nav-link dropdown-toggle fs-1 text-light fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  DL
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Punjab</a></li>
+                  <li><a class="dropdown-item" href="#">Haryana</a></li>
+                  <li><a class="dropdown-item" href="#">Uttar Pradesh</a></li>
+                </ul>
+              </li>
+            </ul> -->
+            <form class="me-auto">
+                <span class="text-light">Location</span>
+                <select name="location" id="location" class="d-block location-select">
+                    <option value="dl">DL</option>
+                    <option value="haryana">Haryana</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="mumabi">Mumbai</option>
+                    <option value="punjab">Punjab</option>
+                    <option value="uttra pradesh">Uttar Pradesh</option>
+                    <option value="bihar">Bihar</option>
+                </select>
+            </form>
+            <div class="d-flex align-items-center">
+                <div class="me-3 text-end">
+                    <h3 class="text-light fs-3">Hello Welcome!</h3>
+                    <h1 class="text-white">John Watson</h1>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user p-4 bg-light rounded-circle fs-1"></i>
+                </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar Section End -->
+
+    <!-- Search Section Start -->
+    <div class="container py-4">
+      <div class="row">
+        <h2 class="col-12 fw-bold text-lightorange fs-70">
+          LET'S FIND YOUR <span class="text-white">CONSULTANT</span>
+        </h2>
+        <form class="d-flex col-12 mt-3" role="search">
+          <input class="form-control me-2 py-4 fs-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary rounded-circle fs-1 px-4" type="submit">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- Serach Section End -->
+
+    <!-- Hero Section Start -->
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-9  offset-md-1">
+                <div class="container">
+                    <div class="row">
+                            <div class="col-md-6 position-relative">
+                                <img src="./assets/img/kumar.png" alt="Teech" class="img-fluid">
+                                <div class="bg-white p-5 rounded-circle position-absolute" style="left:35%; top: 80%;">
+                                  <i class="fa-solid fa-location-arrow fs-4 text-orange"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                             <div class="bg-white rounded-5 p-4">
+                              <div class="row border-bottom">
+                                <div class="col-6">
+                                  <img src="./assets/img/kumar1.png" alt="cloud" class="img-fluid">
+                               </div>
+                             <div class="col-6">
+                                <span class="text-orange text-center fs-70 fw-bold">13<sup>0</sup>C</span>
+                                <span class="text-secondary fs-5 text-center ms-4 fw-bold">Temperature</span>
+                             </div>
+                             </div>
+                                <div class="row my-5">
+                                    <div class="col-12">
+                                        <p class="text-center bg-secondary rounded-pill py-2 mx-5 fs-3 fw-bold">Nearest Clinic</p>
+                                    </div>
+                                </div>
+                                <div class="row my-5">
+                                  <div class="col-12">
+                                      <p class="text-center text-orange fs-4 fw-bold">Dental Clinic</p>
+                                      <p class="text-secondary text-center">12/2, Mathura Road, Sector 37, Faridabad - Delhi</p>
+                                  </div>
+                              </div>
+                             </div>
+                             <div class="bg-orange rounded-5 p-4 pt-5 mt-4 border border-opacity-25 position-relative">
+                              <div>
+                                <img src="./assets/img/kumar4.png" alt="cash" class="img-fluid position-absolute end-0" style="top:-45px;">
+                              </div>
+                              <p class="text-white fs-4">Experience unmatched quality without sacrificing affordability.</p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section End -->
+    
+    <!-- Book appointment Section Start  -->
+    <div class="container py-4">
+        <div class="row">
+          <div class="col-12">
+             <h1 class="fs-70 fw-bold text-lightorange">Book</h1>
+             <h1 class="fs-70 fw-bold text-white">APPOINTMENT</h1>
+          </div>
+           <div class="col-12 bg-darkblue rounded-5">
+               <form class="row p-4">
+                     <!-- <label for="name"></label> -->
+                     <input type="text" class="form-control rounded-pill py-3 fs-5 fw-bold my-2" name="name" placeholder="Enter name">
+                     <input type="datetime-local" class="form-control rounded-pill py-3 fs-5 fw-bold my-2" name="name" placeholder="Date & Time">
+                     <select class="form-select rounded-pill py-3 fs-5 fw-bold my-2" name="problem">
+                        <option selected>Problam</option>
+                        <option value="fever">Fever</option>
+                        <option value="fever">Fever</option>
+                        <option value="fever">Fever</option>
+                        <option value="fever">Fever</option>
+                        <option value="fever">Fever</option>
+                        <option value="fever">Fever</option>
+                    </select>
+                      <button type="submit" class="btn btn-primary rounded-pill py-3 fs-5 fw-bold my-2">Add Appointment</button>
+               </form>
+           </div>
+        </div>
+    </div>
+    <!-- Book appointment Section End -->
+
+    <!-- clinics near you section start -->
+    <div class="container py-4">
+        <div class="row me-4">
+              <div class="d-flex align-items-center pe-5">
+                  <div class="col-12">
+                      <h1 class="fs-70 fw-bold text-lightorange">CLINICS</h1>
+                      <h1 class="fs-70 fw-bold text-white">NEAR YOU</h1>
+                  </div>
+                  <div>
+                     <div class="rounded-pill bg-white pt-4 pb-3 px-2">
+                         <p class="fw-bold text-darkblue text-center">MAP</p>
+                         <i class="fa-solid fa-arrow-up-right-from-square text-center bg-darkblue p-4 rounded-circle text-white"></i>
+                     </div>
+                  </div>
+              </div>
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.245002338426!2d77.11947877374921!3d28.562404787264942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d68dcb25c23%3A0x4a1b89a8fb994c1e!2sDelhi%20airport!5e0!3m2!1shi!2sin!4v1710702337209!5m2!1shi!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+        </div>
+    </div>
+    <!-- clinics near you section end -->
+
+     <!-- Popular Section Start -->
+     <div class="container py-4">
+      <div class="row pe-5 me-5">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="col-12">
+                    <h1 class="fs-70 fw-bold text-lightorange">POPULAR</h1>
+                    <h1 class="fs-70 fw-bold text-white">SPECIALISTS</h1>
+                </div>
+                <div>
+                   <div class="">
+                       <img src="./assets/img/kumar 5.png" alt="teeth2">
+                   </div>
+                </div>
+            </div>
+            <div>
+               <div class="rounded-5 bg-white"></div>
+            </div>
+      </div>
+  </div>
+  <!-- Popular Section End -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
